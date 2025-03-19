@@ -1,7 +1,11 @@
 import { Github, Linkedin, FileText } from "lucide-react";
 import { FC } from "react";
 
+import useDownload from "../hooks/useDonwload";
+
 const SocialList: FC = () => {
+  const { downloadFile } = useDownload();
+
   return (
     <ul className="social-list">
       <li className="social-list__link">
@@ -14,7 +18,7 @@ const SocialList: FC = () => {
           <Linkedin />
         </a>
       </li>
-      <li className="social-list__link">
+      <li className="social-list__link" onClick={() => downloadFile("/NikitaIsaiResume.pdf", "NikitaIsaiResume.pdf")}>
         <FileText/>
       </li>
     </ul>
