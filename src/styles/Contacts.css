@@ -1,0 +1,35 @@
+.contacts__contact, .contacts__contact a {
+  display: flex;
+  align-items: center;
+}
+
+.contacts {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contacts__contact svg {
+  margin-right: 20px;
+  width: 20px;
+  stroke: var(--second-font-color);
+}
+
+.contacts__contact {
+  margin-bottom: 20px;
+}
+
+.contacts__contact:last-of-type {
+  margin-bottom: 0;
+}
+
+.contacts__contact p {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1100px) {
+  .contacts {
+    padding: 30px 0;
+  }
+}

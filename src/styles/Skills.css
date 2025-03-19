@@ -1,0 +1,23 @@
+.skills__type {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.skill {
+  background-color: var(--highlight-color);
+  padding: 5px 8px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.skill p {
+  color: var(--white);
+  font-size: 14px;
+}

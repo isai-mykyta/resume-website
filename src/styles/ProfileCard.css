@@ -1,0 +1,7 @@
+.profile-card {
+  width: 100%;
+}
+
+.profile-card hr {
+  transform: scaleX(1.5);
+}

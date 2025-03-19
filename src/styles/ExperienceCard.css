@@ -1,0 +1,26 @@
+.experience-card__title {
+  margin-bottom: 1px;
+}
+
+.experience-card a {
+  color: var(--highlight-color);
+}
+
+.experience-card__period {
+  color: var(--second-font-color);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.experience-card__summary {
+  margin-bottom: 10px;
+}
+
+.experience-card__insights {
+  padding-left: 20px;
+  list-style-type: circle;
+}
+
+.experience-card__insight {
+  margin-bottom: 5px;
+}

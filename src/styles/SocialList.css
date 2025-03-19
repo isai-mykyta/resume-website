@@ -1,0 +1,19 @@
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.social-list__link {
+  margin-right: 20px;
+}
+
+.social-list__link:last-of-type {
+  margin-right: 0;
+}
+
+.social-list__link svg {
+  cursor: pointer;
+  stroke: var(--second-font-color);
+}

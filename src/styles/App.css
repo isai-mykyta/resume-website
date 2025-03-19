@@ -1,0 +1,71 @@
+.main {
+  background-color: var(--white);
+  width: 75%;
+  padding: 10px;
+  padding-bottom: 40px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.main h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+.main hr {
+  transform: scaleX(1.5);
+}
+
+.main__sections {
+  padding: 20px 0 0 40px;
+}
+
+.main__sections .section {
+  margin-bottom: 30px;
+}
+
+.main__sections .section:last-of-type {
+  margin-bottom: 0;
+}
+
+.main__sections .experience-card {
+  margin-bottom: 40px;
+}
+
+.main__sections .skills {
+  margin-bottom: 20px;
+}
+
+.main__sections .skills:last-of-type {
+  margin-bottom: 0;
+}
+
+.main__languages {
+  padding: 10px 0;
+  font-weight: 600;
+  display: flex;
+}
+
+.main__languages p {
+  margin-right: 20px;
+}
+
+.main__languages p:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .aside {
+    margin-bottom: 10px;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .main__sections {
+    padding-left: 20px;
+  }
+}

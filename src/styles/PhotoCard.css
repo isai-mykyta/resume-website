@@ -1,0 +1,41 @@
+.photo-card {
+  width: 100%;
+  padding: 25px 0;
+}
+
+.photo-card__image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.photo-card__image img {
+  width: 35%;
+  border-radius: 50%;
+}
+
+.photo-card__title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.photo-card__subtitle {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--second-font-color);
+}
+
+@media screen and (max-width: 1100px) {
+  .photo-card__image img {
+    max-width: 150px;
+    position: relative;
+  }
+
+  .photo-card__image {
+    margin-bottom: 20px;
+  }
+}

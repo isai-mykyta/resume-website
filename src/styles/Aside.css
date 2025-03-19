@@ -1,0 +1,19 @@
+.aside {
+  width: 24%;
+  padding: 10px;
+  background-color: var(--white);
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+  position: fixed;
+  left: 10px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1100px) {
+  .aside {
+    width: auto;
+    position: relative;
+    left: 0;
+    box-shadow: none;
+  }
+}

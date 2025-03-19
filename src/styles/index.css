@@ -1,0 +1,51 @@
+:root {
+  --font-color: #333;
+  --second-font-color: #777;
+  --background-color: #f0f0f0;
+  --white: #fff;
+  --font-size: 14px;
+  --border-color: #eee;
+  --box-shadow: -2px 12px 71px -41px rgba(0,0,0,0.75);
+  --highlight-color: #7886C7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size);
+  color: var(--font-color);
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  width: 100%;
+  display: block;
+  border: .5px solid var(--border-color);
+}
+
+#root {
+  background-color: var(--background-color);
+}
+
+.open-sans {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+@import "./Aside.css";
+@import "./Container.css";
+@import "./ProfileCard.css";
+@import "./PhotoCard.css";
+@import "./Contacts.css";
+@import "./SocialList.css";
+@import "./App.css";
+@import "./Section.css";
+@import './ExperienceCard.css';
+@import './Skills.css';
